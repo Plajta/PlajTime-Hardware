@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "PlajTime_Library")(type "KiCad")(uri "${KIPRJMOD}/PlajTime_Library.pretty")(options "")(descr ""))
+)

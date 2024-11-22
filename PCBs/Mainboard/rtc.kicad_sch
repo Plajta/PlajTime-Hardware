@@ -1,0 +1,44 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "60343992-03f3-4207-bc36-256d113ded25")
+	(paper "A4")
+	(lib_symbols)
+	(hierarchical_label "INT"
+		(shape input)
+		(at 77.47 58.42 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "318b976a-a5c2-4831-bfa2-5ea09e6cf5fd")
+	)
+	(hierarchical_label "SCL"
+		(shape input)
+		(at 77.47 63.5 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "38d95827-8b8c-4cc4-be49-8daa1bab78d1")
+	)
+	(hierarchical_label "SDA"
+		(shape input)
+		(at 77.47 53.34 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7b751f2d-0ef9-4dd4-aa25-3d5c65fb7605")
+	)
+)

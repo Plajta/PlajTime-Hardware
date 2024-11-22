@@ -1,0 +1,8 @@
+bom/
+*backups/
+fp-info-cache
+PlajTime.kicad_prl
+*.bak
+*.lck
+_autosave*
+gerber

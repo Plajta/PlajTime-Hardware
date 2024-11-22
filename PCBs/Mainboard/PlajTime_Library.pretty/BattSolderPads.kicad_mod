@@ -1,0 +1,98 @@
+(footprint "BattSolderPads"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "BAT**"
+		(at 3 -3 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "336c5b21-245e-49cd-9f20-eb658c279ddb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "BattSolderPads"
+		(at 4 -8 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "b21f41cc-4a71-4e44-a36e-06fdcd235fff")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3c14223d-088d-443d-affc-7a603d86b964")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fb5b7aa9-7f2b-46e2-827f-4d7bac4d15c9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "07e7efe3-8e7a-41ee-b41c-e4bb70416a85")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_text user "${REFERENCE}"
+		(at 4 -6.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "c7eb2fbe-7810-42fe-b014-6f2b90cb2608")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at 0 0)
+		(size 2 4)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(uuid "7b21b480-2a4d-401d-9897-b8abc813483b")
+	)
+	(pad "2" smd roundrect
+		(at 4 0)
+		(size 2 4)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(uuid "dd389175-592c-433c-b4fb-f813d2ba49df")
+	)
+)
