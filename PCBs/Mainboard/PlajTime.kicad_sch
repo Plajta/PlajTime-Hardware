@@ -2661,6 +2661,16 @@
 		)
 		(uuid "95a78bab-4044-43ae-a721-eedb2e252c35")
 	)
+	(text "0x4a"
+		(exclude_from_sim no)
+		(at 198.628 133.096 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "9b2bbff0-023d-4b3c-9e59-16b0d2b76389")
+	)
 	(text "0x50"
 		(exclude_from_sim no)
 		(at 128.27 54.864 0)
