@@ -4,6 +4,9 @@
 	(generator_version "8.0")
 	(uuid "93b192ee-12e1-4591-adb2-8d56488152b7")
 	(paper "A4")
+	(title_block
+		(title "Female flex pogo pin USB connector (for watch)")
+	)
 	(lib_symbols
 		(symbol "Connector:Conn_01x04_Pin"
 			(pin_names
@@ -290,7 +293,6 @@
 	)
 	(label "+5V"
 		(at 168.91 92.71 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -301,7 +303,6 @@
 	)
 	(label "GND"
 		(at 168.91 100.33 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -312,7 +313,6 @@
 	)
 	(label "D-"
 		(at 168.91 95.25 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -323,7 +323,6 @@
 	)
 	(label "D+"
 		(at 168.91 97.79 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
