@@ -4,6 +4,9 @@
 	(generator_version "8.0")
 	(uuid "ecd6c078-c446-4aad-805f-f53d67f9882f")
 	(paper "A4")
+	(title_block
+		(title "ESP32 C3")
+	)
 	(lib_symbols
 		(symbol "Device:Antenna_Shield"
 			(pin_numbers hide)
@@ -2403,16 +2406,6 @@
 		)
 		(uuid b42c84db-8ec5-4398-a963-4a652ac56ffe)
 	)
-	(text "Schematic ESP32 C3"
-		(exclude_from_sim no)
-		(at 200.66 189.992 0)
-		(effects
-			(font
-				(size 1.778 1.778)
-			)
-		)
-		(uuid "1b6cbb83-32b7-4a52-a12a-7fe9b920fe78")
-	)
 	(text "Strapping Pins\n"
 		(exclude_from_sim no)
 		(at 199.39 92.71 0)
@@ -2435,7 +2428,6 @@
 	)
 	(label "RF_ANTENNA"
 		(at 170.18 55.88 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2446,7 +2438,6 @@
 	)
 	(label "RF_ANTENNA"
 		(at 100.33 74.93 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2458,7 +2449,6 @@
 	(hierarchical_label "INT1"
 		(shape input)
 		(at 113.03 85.09 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2470,7 +2460,6 @@
 	(hierarchical_label "QSPI_D1"
 		(shape input)
 		(at 110.49 107.95 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2482,7 +2471,6 @@
 	(hierarchical_label "QSPI_SCL"
 		(shape input)
 		(at 110.49 105.41 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2494,7 +2482,6 @@
 	(hierarchical_label "ADC"
 		(shape input)
 		(at 171.45 102.87 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2506,7 +2493,6 @@
 	(hierarchical_label "USB_D+"
 		(shape input)
 		(at 171.45 82.55 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2518,7 +2504,6 @@
 	(hierarchical_label "BOOT"
 		(shape input)
 		(at 201.93 107.95 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2530,7 +2515,6 @@
 	(hierarchical_label "USB_D-"
 		(shape input)
 		(at 171.45 85.09 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2542,7 +2526,6 @@
 	(hierarchical_label "QSPI_D2"
 		(shape input)
 		(at 110.49 102.87 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2554,7 +2537,6 @@
 	(hierarchical_label "QSPI_D0"
 		(shape input)
 		(at 171.45 100.33 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2566,7 +2548,6 @@
 	(hierarchical_label "INT2"
 		(shape input)
 		(at 113.03 87.63 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2578,7 +2559,6 @@
 	(hierarchical_label "QSPI_D3"
 		(shape input)
 		(at 110.49 100.33 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2590,7 +2570,6 @@
 	(hierarchical_label "SCL"
 		(shape input)
 		(at 180.34 74.93 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2602,7 +2581,6 @@
 	(hierarchical_label "SDA"
 		(shape input)
 		(at 182.88 100.33 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2614,7 +2592,6 @@
 	(hierarchical_label "QSPI_CS"
 		(shape input)
 		(at 170.18 110.49 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2626,7 +2603,6 @@
 	(hierarchical_label "INT3"
 		(shape input)
 		(at 180.34 77.47 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)

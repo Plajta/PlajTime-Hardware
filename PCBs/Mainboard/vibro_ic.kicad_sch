@@ -4,6 +4,9 @@
 	(generator_version "8.0")
 	(uuid "fab8fe13-66ab-402b-8922-9e65a5b6ced5")
 	(paper "A4")
+	(title_block
+		(title "LRA Driver (Vibration)")
+	)
 	(lib_symbols
 		(symbol "Connector:Conn_01x02_Pin"
 			(pin_names
@@ -954,7 +957,6 @@
 	(hierarchical_label "VSYS"
 		(shape input)
 		(at 54.61 99.06 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -966,7 +968,6 @@
 	(hierarchical_label "INT"
 		(shape input)
 		(at 72.39 60.96 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -978,7 +979,6 @@
 	(hierarchical_label "SCL"
 		(shape input)
 		(at 74.93 60.96 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -990,7 +990,6 @@
 	(hierarchical_label "SDA"
 		(shape input)
 		(at 77.47 60.96 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)

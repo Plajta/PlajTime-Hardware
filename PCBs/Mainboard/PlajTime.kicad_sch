@@ -4,6 +4,9 @@
 	(generator_version "8.0")
 	(uuid "e1e23a73-f223-413c-9ff1-7b953f47b0c9")
 	(paper "A4")
+	(title_block
+		(title "Main")
+	)
 	(lib_symbols
 		(symbol "Connector:Conn_01x02_Pin"
 			(pin_names
@@ -2681,19 +2684,8 @@
 		)
 		(uuid "ba78fc2f-9e26-43de-b12b-e3a5c4ec2310")
 	)
-	(text "Main Schematic For PlajTime Watch"
-		(exclude_from_sim no)
-		(at 211.582 189.738 0)
-		(effects
-			(font
-				(size 1.778 1.778)
-			)
-		)
-		(uuid "f9306e2f-defa-4c66-8858-62b434e71ce8")
-	)
 	(label "VSYS"
 		(at 214.63 152.4 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2704,7 +2696,6 @@
 	)
 	(label "VSYS"
 		(at 109.22 60.96 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2715,7 +2706,6 @@
 	)
 	(label "SCL_1V8"
 		(at 245.11 102.87 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2726,7 +2716,6 @@
 	)
 	(label "OXY_INT"
 		(at 167.64 76.2 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2737,7 +2726,6 @@
 	)
 	(label "IMU_INT"
 		(at 157.48 76.2 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2748,7 +2736,6 @@
 	)
 	(label "NFC_INT"
 		(at 162.56 76.2 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2759,7 +2746,6 @@
 	)
 	(label "VSYS"
 		(at 171.45 60.96 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2770,7 +2756,6 @@
 	)
 	(label "DP_RES"
 		(at 160.02 76.2 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2781,7 +2766,6 @@
 	)
 	(label "IN+"
 		(at 41.91 87.63 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2792,7 +2776,6 @@
 	)
 	(label "VIC_INT"
 		(at 184.15 88.9 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2803,7 +2786,6 @@
 	)
 	(label "DP_RES"
 		(at 114.3 67.31 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2814,7 +2796,6 @@
 	)
 	(label "IN+"
 		(at 171.45 63.5 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2825,7 +2806,6 @@
 	)
 	(label "PIC_INT"
 		(at 167.64 72.39 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2836,7 +2816,6 @@
 	)
 	(label "1V8_EN"
 		(at 165.1 76.2 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2847,7 +2826,6 @@
 	)
 	(label "SDA_1V8"
 		(at 245.11 100.33 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2858,7 +2836,6 @@
 	)
 	(label "LVL_SHIFT_EN"
 		(at 212.09 93.98 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)

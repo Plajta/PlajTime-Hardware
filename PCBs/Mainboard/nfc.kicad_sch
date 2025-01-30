@@ -4,6 +4,9 @@
 	(generator_version "8.0")
 	(uuid "fe29105f-d04c-4d3a-aee9-f653fceff192")
 	(paper "A4")
+	(title_block
+		(title "NFC")
+	)
 	(lib_symbols
 		(symbol "Connector:Conn_01x02_Pin"
 			(pin_names
@@ -3213,19 +3216,8 @@
 		)
 		(uuid "fa4acc0b-2cf5-409a-b349-42dd7dbe5f38")
 	)
-	(text "Schematic NFC"
-		(exclude_from_sim no)
-		(at 196.85 189.992 0)
-		(effects
-			(font
-				(size 1.778 1.778)
-			)
-		)
-		(uuid "cde17beb-c08b-43ef-9b6c-c3a64277ed8e")
-	)
 	(label "RFI2"
 		(at 110.49 71.12 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3236,7 +3228,6 @@
 	)
 	(label "RFO2"
 		(at 162.56 88.9 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3247,7 +3238,6 @@
 	)
 	(label "RFO1"
 		(at 162.56 58.42 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3258,7 +3248,6 @@
 	)
 	(label "RFO2"
 		(at 110.49 63.5 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3269,7 +3258,6 @@
 	)
 	(label "RFI1"
 		(at 110.49 74.93 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3280,7 +3268,6 @@
 	)
 	(label "RFI2"
 		(at 162.56 95.25 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3291,7 +3278,6 @@
 	)
 	(label "RFO1"
 		(at 110.49 67.31 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3302,7 +3288,6 @@
 	)
 	(label "RFI1"
 		(at 162.56 52.07 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3314,7 +3299,6 @@
 	(hierarchical_label "INT"
 		(shape input)
 		(at 67.31 93.98 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3326,7 +3310,6 @@
 	(hierarchical_label "SCL"
 		(shape input)
 		(at 67.31 86.36 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3338,7 +3321,6 @@
 	(hierarchical_label "SDA"
 		(shape input)
 		(at 67.31 90.17 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)

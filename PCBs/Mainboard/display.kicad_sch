@@ -4,6 +4,9 @@
 	(generator_version "8.0")
 	(uuid "c25604d9-bec6-43d1-8d5c-36e9d5d66fe1")
 	(paper "A4")
+	(title_block
+		(title "Display")
+	)
 	(lib_symbols
 		(symbol "Connector_Generic_MountingPin:Conn_02x12_Counter_Clockwise_MountingPin"
 			(pin_names
@@ -2625,19 +2628,8 @@
 		)
 		(uuid "f2152677-db1f-42fe-a362-b00bbf157214")
 	)
-	(text "Schematic IO-expander"
-		(exclude_from_sim no)
-		(at 202.692 189.738 0)
-		(effects
-			(font
-				(size 1.778 1.778)
-			)
-		)
-		(uuid "0f7b12e6-2974-43d5-af52-253f989a74a0")
-	)
 	(label "ELVSS"
 		(at 262.89 86.36 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2648,7 +2640,6 @@
 	)
 	(label "SWIRE"
 		(at 125.73 81.28 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2659,7 +2650,6 @@
 	)
 	(label "FB"
 		(at 224.79 44.45 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2670,7 +2660,6 @@
 	)
 	(label "ELVSS"
 		(at 125.73 66.04 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2681,7 +2670,6 @@
 	)
 	(label "ELVDD"
 		(at 224.79 41.91 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2692,7 +2680,6 @@
 	)
 	(label "FBG"
 		(at 224.79 57.15 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2703,7 +2690,6 @@
 	)
 	(label "FBG"
 		(at 125.73 76.2 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2714,7 +2700,6 @@
 	)
 	(label "ELVDD"
 		(at 59.69 58.42 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2725,7 +2710,6 @@
 	)
 	(label "ELVSS"
 		(at 224.79 69.85 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2736,7 +2720,6 @@
 	)
 	(label "ELVDD"
 		(at 224.79 86.36 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2747,7 +2730,6 @@
 	)
 	(label "ELVSS"
 		(at 59.69 55.88 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2758,7 +2740,6 @@
 	)
 	(label "FB"
 		(at 125.73 78.74 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2769,7 +2750,6 @@
 	)
 	(label "ELVDD"
 		(at 207.01 81.28 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2780,7 +2760,6 @@
 	)
 	(label "SWIRE"
 		(at 59.69 71.12 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2792,7 +2771,6 @@
 	(hierarchical_label "TE"
 		(shape input)
 		(at 50.8 73.66 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2804,7 +2782,6 @@
 	(hierarchical_label "TP_RESET"
 		(shape input)
 		(at 50.8 76.2 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2816,7 +2793,6 @@
 	(hierarchical_label "DP_RESET"
 		(shape input)
 		(at 38.1 63.5 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2828,7 +2804,6 @@
 	(hierarchical_label "QSPI_SCL"
 		(shape input)
 		(at 38.1 78.74 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2840,7 +2815,6 @@
 	(hierarchical_label "QSPI_D3"
 		(shape input)
 		(at 38.1 73.66 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2852,7 +2826,6 @@
 	(hierarchical_label "SDA"
 		(shape input)
 		(at 38.1 58.42 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2864,7 +2837,6 @@
 	(hierarchical_label "QSPI_CS"
 		(shape input)
 		(at 38.1 68.58 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2876,7 +2848,6 @@
 	(hierarchical_label "QSPI_D1"
 		(shape input)
 		(at 50.8 81.28 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2888,7 +2859,6 @@
 	(hierarchical_label "SCL"
 		(shape input)
 		(at 38.1 60.96 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2900,7 +2870,6 @@
 	(hierarchical_label "QSPI_D2"
 		(shape input)
 		(at 50.8 78.74 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2912,7 +2881,6 @@
 	(hierarchical_label "TP_INT"
 		(shape input)
 		(at 38.1 55.88 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2924,7 +2892,6 @@
 	(hierarchical_label "VBAT"
 		(shape input)
 		(at 95.25 63.5 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2936,7 +2903,6 @@
 	(hierarchical_label "QSPI_D0"
 		(shape input)
 		(at 38.1 71.12 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
