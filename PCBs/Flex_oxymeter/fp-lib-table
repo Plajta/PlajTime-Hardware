@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "Oxymeter")(type "KiCad")(uri "${KIPRJMOD}/Oxymeter.pretty")(options "")(descr ""))
+)
