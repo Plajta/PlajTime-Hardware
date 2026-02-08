@@ -53,7 +53,7 @@
 			)
 		)
 	)
-	(attr smd)
+	(attr smd allow_soldermask_bridges)
 	(fp_rect
 		(start -0.7 -0.75)
 		(end 0.7 0.75)
@@ -407,7 +407,7 @@
 			(tracks not_allowed)
 			(vias not_allowed)
 			(pads not_allowed)
-			(copperpour allowed)
+			(copperpour not_allowed)
 			(footprints allowed)
 		)
 		(placement
@@ -420,7 +420,8 @@
 		)
 		(polygon
 			(pts
-				(xy -0.7 -0.75) (xy 0.7 -0.75) (xy 0.7 0.75) (xy -0.7 0.75)
+				(xy -0.69 -0.75) (xy -0.27 -0.75) (xy -0.27 -0.74) (xy 0.25 -0.74) (xy 0.25 -0.75) (xy 0.69 -0.75)
+				(xy 0.69 0.75) (xy 0.26 0.75) (xy 0.26 0.64) (xy -0.26 0.64) (xy -0.26 0.75) (xy -0.69 0.75)
 			)
 		)
 	)
