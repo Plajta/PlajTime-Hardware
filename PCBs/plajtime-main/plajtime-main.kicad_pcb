@@ -22947,6 +22947,70 @@
 		(layer "User.4")
 		(uuid "e07cb327-b3e8-4d7a-8c0f-1005279fc49f")
 	)
+	(gr_text "Display"
+		(at 50 135.4 90)
+		(layer "F.SilkS")
+		(uuid "1dc70830-c77e-4411-9984-ebe9505ceefb")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.1)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "AUX"
+		(at 46 142 90)
+		(layer "F.SilkS")
+		(uuid "6147f1c2-14c7-42ee-a3e0-b412a90986ae")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.1)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "RF\nmagic"
+		(at 43.4 152.4 45)
+		(layer "F.SilkS")
+		(uuid "92ffcd3b-88f5-4090-ae69-82e37284d3d1")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.1)
+			)
+			(justify right bottom)
+		)
+	)
+	(gr_text "EXP"
+		(at 47.8 145 0)
+		(layer "F.SilkS")
+		(uuid "df2191cc-0095-4f30-9886-1e33c837a2b6")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.1)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "BAT"
+		(at 39.4 138.4 90)
+		(layer "F.SilkS")
+		(uuid "ef99c600-6d98-4bac-ac82-2543fd4837b5")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.1)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "by Plajta"
 		(at 46.06 132.45 315)
 		(layer "B.SilkS")
@@ -22979,7 +23043,8 @@
 		(effects
 			(font
 				(size 0.8 0.8)
-				(thickness 0.1)
+				(thickness 0.15)
+				(bold yes)
 			)
 			(justify left bottom mirror)
 		)
