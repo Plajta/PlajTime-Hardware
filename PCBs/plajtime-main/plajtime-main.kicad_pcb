@@ -23036,7 +23036,7 @@
 			(justify left bottom mirror)
 		)
 	)
-	(gr_text "Plajtime v0.4\nMainboard"
+	(gr_text "Plajtime\nv0.4"
 		(at 47.07 131.94 315)
 		(layer "B.SilkS")
 		(uuid "60ef7c2b-ee44-486e-859b-2347e2a73858")
@@ -23049,8 +23049,8 @@
 			(justify left bottom mirror)
 		)
 	)
-	(gr_text "Smrt1"
-		(at 43.459611 135.463099 315)
+	(gr_text "SMRT1"
+		(at 43.6 135.7 315)
 		(layer "B.SilkS")
 		(uuid "69373bab-09d0-43ef-ac67-fa23db1298b5")
 		(effects
@@ -23063,7 +23063,7 @@
 		)
 	)
 	(gr_text "nRF SWD"
-		(at 41.25 147.82 45)
+		(at 41.2 151 315)
 		(layer "B.SilkS")
 		(uuid "72f332b0-a7c7-43a1-a249-b2da8f11ddd4")
 		(effects
@@ -23075,8 +23075,8 @@
 			(justify left bottom mirror)
 		)
 	)
-	(gr_text "Smrt2"
-		(at 38.07 140.76 0)
+	(gr_text "SMRT2 ->"
+		(at 37.4 136.8 90)
 		(layer "B.SilkS")
 		(uuid "7f35e9ad-c119-40d6-861b-fc16fbf0df1a")
 		(effects
@@ -23088,8 +23088,8 @@
 			(justify left bottom mirror)
 		)
 	)
-	(gr_text "<USB"
-		(at 41.92 130.13 315)
+	(gr_text "RP USB"
+		(at 47.1 133.5 345)
 		(layer "B.SilkS")
 		(uuid "cdb86179-8680-41c9-b686-76b143dc7967")
 		(effects
@@ -23099,6 +23099,94 @@
 				(bold yes)
 			)
 			(justify left bottom mirror)
+		)
+	)
+	(gr_text "2nd flash/RAM"
+		(at 42.4 133.3 45)
+		(layer "B.SilkS")
+		(uuid "d838e05e-9e07-484d-886a-5ca6d042b30e")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.1)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(dimension
+		(type orthogonal)
+		(layer "Cmts.User")
+		(uuid "2cf32ac6-b8ad-4244-9c5c-630f028216c5")
+		(pts
+			(xy 50.42 139.579998) (xy 35.22 139.579998)
+		)
+		(height -20.179998)
+		(orientation 0)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 0)
+			(precision 4)
+			(suppress_zeroes yes)
+		)
+		(style
+			(thickness 0.1)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(arrow_direction outward)
+			(extension_height 0.58642)
+			(extension_offset 0.5)
+			(keep_text_aligned yes)
+		)
+		(gr_text "15,2"
+			(at 42.82 118.25 0)
+			(layer "Cmts.User")
+			(uuid "2cf32ac6-b8ad-4244-9c5c-630f028216c5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+	)
+	(dimension
+		(type orthogonal)
+		(layer "Cmts.User")
+		(uuid "388c7e93-b512-4dd8-ad9d-634355cb2603")
+		(pts
+			(xy 49.42 156.58) (xy 49.42 122.579998)
+		)
+		(height 5.78)
+		(orientation 1)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 0)
+			(precision 4)
+			(suppress_zeroes yes)
+		)
+		(style
+			(thickness 0.1)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(arrow_direction outward)
+			(extension_height 0.58642)
+			(extension_offset 0.5)
+			(keep_text_aligned yes)
+		)
+		(gr_text "34"
+			(at 54.05 139.579999 90)
+			(layer "Cmts.User")
+			(uuid "388c7e93-b512-4dd8-ad9d-634355cb2603")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
 		)
 	)
 	(segment
