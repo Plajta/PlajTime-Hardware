@@ -15792,6 +15792,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC_Part" "C2691929"
+			(at 43.18 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "B3"
 			(uuid "3ef38b0e-e43c-4ecd-aeda-53c79014753d")
 		)
@@ -17028,7 +17037,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "1fb32c52-2490-4a2f-a708-048063566b54")
 		(property "Reference" "U6"
 			(at 124.46 180.34 0)
@@ -17066,6 +17074,15 @@
 		)
 		(property "Description" "7μA 1-Cell Fuel Gauge with ModelGauge m5 EZ"
 			(at 124.714 206.248 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC_Part" "C2682627"
+			(at 124.46 201.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18112,6 +18129,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC_Part" "C541243"
+			(at 271.78 147.32 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "17ac4d6f-ab2a-4a0c-ba34-6a04c54e73d1")
 		)
@@ -18237,6 +18263,15 @@
 			)
 		)
 		(property "Description" "Generic connectable mounting pin connector, double row, 02x06, top/bottom pin numbering scheme (row 1: 1...pins_per_row, row2: pins_per_row+1 ... num_pins), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 185.42 252.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC_Part" "C5902841"
 			(at 185.42 252.73 0)
 			(effects
 				(font
@@ -18546,6 +18581,15 @@
 			)
 		)
 		(property "KLC_S4.1" ""
+			(at 31.75 165.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC_Part" "C541244"
 			(at 31.75 165.1 90)
 			(effects
 				(font
@@ -19550,6 +19594,15 @@
 			)
 		)
 		(property "KLC_S4.1" ""
+			(at 271.78 137.16 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC_Part" "C541243"
 			(at 271.78 137.16 90)
 			(effects
 				(font
@@ -20817,6 +20870,15 @@
 			)
 		)
 		(property "Description" "Generic connectable mounting pin connector, double row, 02x04, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 227.33 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC_Part" "C3652707`"
 			(at 227.33 254 0)
 			(effects
 				(font
@@ -22463,6 +22525,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC_Part" "C724122"
+			(at 271.78 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "3b362b2c-5150-4706-84d7-ea995c37a05d")
 		)
@@ -23524,6 +23595,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC_Part" "C41361064"
+			(at 287.02 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "cfd5ac80-2aa5-4b53-8339-9b39067d93c6")
 		)
@@ -24565,6 +24645,15 @@
 			)
 		)
 		(property "KLC_S4.1" ""
+			(at 273.05 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC_Part" "C48642883"
 			(at 273.05 102.87 0)
 			(effects
 				(font
@@ -27302,6 +27391,15 @@
 			)
 		)
 		(property "KLC_S4.1" ""
+			(at 31.75 154.94 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC_Part" "C541244"
 			(at 31.75 154.94 90)
 			(effects
 				(font
@@ -30261,7 +30359,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC_Part" "0402"
+		(property "LCSC_Part" " "
 			(at 124.46 223.52 90)
 			(effects
 				(font
