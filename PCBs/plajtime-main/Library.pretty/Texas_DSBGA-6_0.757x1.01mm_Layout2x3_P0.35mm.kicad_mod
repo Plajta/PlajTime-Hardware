@@ -183,7 +183,7 @@
 		(size 0.26 0.26)
 		(property pad_prop_bga)
 		(layers "F.Cu" "F.Mask")
-		(solder_mask_margin 0.05)
+		(solder_mask_margin 0.04)
 		(uuid "f129c13a-5689-4cfb-ae08-484d7f53528b")
 	)
 	(pad "A2" smd circle
@@ -191,7 +191,7 @@
 		(size 0.26 0.26)
 		(property pad_prop_bga)
 		(layers "F.Cu" "F.Mask")
-		(solder_mask_margin 0.05)
+		(solder_mask_margin 0.04)
 		(uuid "a3fb7f43-81d8-49ad-b1d3-cbfed9f77233")
 	)
 	(pad "B1" smd circle
@@ -199,7 +199,7 @@
 		(size 0.26 0.26)
 		(property pad_prop_bga)
 		(layers "F.Cu" "F.Mask")
-		(solder_mask_margin 0.05)
+		(solder_mask_margin 0.04)
 		(uuid "864ee190-956e-4606-a76f-968dec220bcf")
 	)
 	(pad "B2" smd circle
@@ -207,7 +207,7 @@
 		(size 0.26 0.26)
 		(property pad_prop_bga)
 		(layers "F.Cu" "F.Mask")
-		(solder_mask_margin 0.05)
+		(solder_mask_margin 0.04)
 		(uuid "883c73a0-7e75-4463-9779-252911dd1e4a")
 	)
 	(pad "C1" smd circle
@@ -215,7 +215,7 @@
 		(size 0.26 0.26)
 		(property pad_prop_bga)
 		(layers "F.Cu" "F.Mask")
-		(solder_mask_margin 0.05)
+		(solder_mask_margin 0.04)
 		(uuid "c961bbdc-5e55-4c0e-9274-8f8b2900a37c")
 	)
 	(pad "C2" smd circle
@@ -223,7 +223,7 @@
 		(size 0.26 0.26)
 		(property pad_prop_bga)
 		(layers "F.Cu" "F.Mask")
-		(solder_mask_margin 0.05)
+		(solder_mask_margin 0.04)
 		(uuid "605836cc-14de-435d-b94e-c629b49215a1")
 	)
 	(embedded_fonts no)
