@@ -521,7 +521,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "plajtime-main.stl",
+      "step": "plajtime-main.step",
       "svg": "",
       "vrml": ""
     },
@@ -529,7 +529,7 @@
   },
   "schematic": {
     "annotate_start_num": 0,
-    "bom_export_filename": "${PROJECTNAME}.csv",
+    "bom_export_filename": "/home/andry/Downloads/plajtime-main.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
@@ -638,7 +638,7 @@
           "group_by": false,
           "label": "Mouser",
           "name": "Mouser",
-          "show": false
+          "show": true
         }
       ],
       "filter_string": "",
