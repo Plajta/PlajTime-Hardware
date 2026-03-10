@@ -1784,7 +1784,7 @@
 							)
 						)
 					)
-					(number "4"
+					(number "D1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1802,7 +1802,7 @@
 							)
 						)
 					)
-					(number "6"
+					(number "D3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1820,7 +1820,7 @@
 							)
 						)
 					)
-					(number "9"
+					(number "B3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1838,7 +1838,7 @@
 							)
 						)
 					)
-					(number "7"
+					(number "C3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1856,7 +1856,7 @@
 							)
 						)
 					)
-					(number "3"
+					(number "C1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1874,7 +1874,7 @@
 							)
 						)
 					)
-					(number "2"
+					(number "B1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1892,7 +1892,7 @@
 							)
 						)
 					)
-					(number "1"
+					(number "B2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1910,7 +1910,7 @@
 							)
 						)
 					)
-					(number "10"
+					(number "A3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1928,7 +1928,7 @@
 							)
 						)
 					)
-					(number "11"
+					(number "A2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1946,7 +1946,7 @@
 							)
 						)
 					)
-					(number "5"
+					(number "D2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1964,7 +1964,7 @@
 							)
 						)
 					)
-					(number "8"
+					(number "C2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1982,7 +1982,7 @@
 							)
 						)
 					)
-					(number "12"
+					(number "A1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2035,7 +2035,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "https://www.azoteq.com/images/stories/pdf/iqs7222b_datasheet.pdf"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2430,7 +2430,7 @@
 			)
 			(symbol "IQS7222B_1_0"
 				(pin unspecified line
-					(at 16.51 -19.05 180)
+					(at 16.51 -20.32 180)
 					(length 2.54)
 					(hide yes)
 					(name "EP"
@@ -3430,6 +3430,12 @@
 		(uuid "d4c6a97c-d5a0-434b-af19-4bc68c1cc0c1")
 	)
 	(junction
+		(at 195.58 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e3d814b6-5646-4a88-8e11-730e2502ab90")
+	)
+	(junction
 		(at 153.67 82.55)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4249,6 +4255,16 @@
 		)
 		(uuid "ff5cbdcc-757a-4fc1-b002-5703af97e35d")
 	)
+	(label "D-"
+		(at 50.8 45.72 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1bfad0d1-cf5c-463b-9970-cdeab045d3ee")
+	)
 	(label "SLIDER_INT"
 		(at 39.37 115.57 0)
 		(effects
@@ -4268,6 +4284,16 @@
 			(justify right bottom)
 		)
 		(uuid "3c8f08a7-b9f4-4ff7-88b5-b8b65b74a233")
+	)
+	(label "D+"
+		(at 50.8 43.18 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "77fa8dfc-aaaa-4d52-b371-722a4964fa3e")
 	)
 	(label "SLIDER_INT"
 		(at 160.02 46.99 0)
@@ -4535,7 +4561,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Library:PinHeader_1x04_P2.54mm_Vertical"
 			(at 45.72 45.72 0)
 			(effects
 				(font
@@ -4608,7 +4634,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 40.64 82.55 0)
 			(effects
 				(font
@@ -4825,7 +4851,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.azoteq.com/images/stories/pdf/iqs7222b_datasheet.pdf"
 			(at 67.31 102.87 0)
 			(effects
 				(font
@@ -5018,7 +5044,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
+		(property "Footprint" "Diode_SMD:D_0402_1005Metric"
 			(at 57.15 36.83 90)
 			(effects
 				(font
@@ -5295,7 +5321,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x02_P1.00mm_Vertical"
 			(at 246.38 107.95 0)
 			(effects
 				(font
@@ -5362,7 +5388,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 45.72 85.09 0)
 			(effects
 				(font
@@ -5507,7 +5533,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 87.3252 102.87 0)
 			(effects
 				(font
@@ -5583,7 +5609,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Library:TouchSlider-5_26.2x4.2mm"
+		(property "Footprint" "Library:TouchSlider-5_25.0248x4.2mm"
 			(at 29.21 87.63 0)
 			(effects
 				(font
@@ -5660,7 +5686,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Library:CONN12_505066-1222_179x87_MOL"
+		(property "Footprint" "Library:5050701222"
 			(at 176.53 39.37 0)
 			(effects
 				(font
@@ -5781,7 +5807,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 127.9652 97.79 0)
 			(effects
 				(font
@@ -5860,7 +5886,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 113.9952 97.79 0)
 			(effects
 				(font
@@ -5939,7 +5965,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 101.2952 102.87 0)
 			(effects
 				(font
@@ -6188,6 +6214,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 195.58 100.33 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "773453b6-05de-4635-8ea3-4c5e0029b5fb")
+		(property "Reference" "#PWR021"
+			(at 195.58 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 195.58 104.902 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 195.58 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 195.58 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 195.58 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4d15e5ea-e5ae-4c47-8205-72bda9c20ff3")
+		)
+		(instances
+			(project "plajtime-aux"
+				(path "/4927e521-23d4-4b4c-83b6-f3b54e580c82"
+					(reference "#PWR021")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 163.83 34.29 0)
 		(unit 1)
@@ -6344,7 +6435,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 40.64 87.63 0)
 			(effects
 				(font
@@ -6485,7 +6576,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 45.72 90.17 0)
 			(effects
 				(font
@@ -6630,7 +6721,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 195.58 96.52 0)
 			(effects
 				(font
@@ -6709,7 +6800,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 140.6652 92.71 0)
 			(effects
 				(font
@@ -7049,7 +7140,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 40.64 92.71 0)
 			(effects
 				(font
@@ -7126,7 +7217,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Library:BGA12C40P3X4_135X175X58"
 			(at 220.98 111.76 0)
 			(effects
 				(font
@@ -7162,40 +7253,40 @@
 				(hide yes)
 			)
 		)
-		(pin "4"
+		(pin "A1"
 			(uuid "ce8ebe02-4fb8-4b12-a451-4b9dec472582")
 		)
-		(pin "6"
+		(pin "C2"
 			(uuid "4f7fb3b3-f0ba-4afc-928b-04cb23dbdea3")
 		)
-		(pin "12"
+		(pin "B1"
 			(uuid "9975a190-4798-4ba8-8985-a31d98d61e85")
 		)
-		(pin "8"
+		(pin "C1"
 			(uuid "1424f32c-31b3-47d5-a769-00c6c7112c0f")
 		)
-		(pin "2"
+		(pin "C3"
 			(uuid "515f40f7-7a8b-49c8-ae37-2fa5be5efee5")
 		)
-		(pin "3"
+		(pin "B3"
 			(uuid "cd35e999-c860-4952-ab2f-a9acbf2b2cc8")
 		)
-		(pin "9"
+		(pin "D3"
 			(uuid "9b75708f-b112-4f19-bfe9-2704db8c43a1")
 		)
-		(pin "7"
+		(pin "D1"
 			(uuid "bb7a4cca-df9d-4e03-8dd2-7caa1c3d847c")
 		)
-		(pin "5"
+		(pin "D2"
 			(uuid "2c7314c2-ecde-42e9-9019-d62c025cc366")
 		)
-		(pin "11"
+		(pin "A2"
 			(uuid "d7d719d1-1b87-4e66-bc9a-c6ab9610aef9")
 		)
-		(pin "10"
+		(pin "A3"
 			(uuid "76efe3c3-4e3f-4198-a18f-c91db691039b")
 		)
-		(pin "1"
+		(pin "B2"
 			(uuid "07200bd8-e3d0-4ca0-85c0-d89d4eb09ff0")
 		)
 		(instances
@@ -7235,7 +7326,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 154.6352 92.71 0)
 			(effects
 				(font
@@ -7313,7 +7404,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-666"
+		(property "Footprint" "Library:PESD3V3L5UF115"
 			(at 65.786 49.911 0)
 			(effects
 				(font
@@ -7539,7 +7630,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 47.9552 132.08 0)
 			(effects
 				(font
