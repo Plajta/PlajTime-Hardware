@@ -30546,26 +30546,6 @@
 		(layer "F.CrtYd")
 		(uuid "8de0e769-a6b0-4760-940f-8613c401fe8e")
 	)
-	(gr_line
-		(start 0 1.670002)
-		(end 0 0.00071)
-		(stroke
-			(width 0.05)
-			(type default)
-		)
-		(layer "F.CrtYd")
-		(uuid "c1747271-d8d5-4eaa-bbcc-3817e73d3931")
-	)
-	(gr_line
-		(start -11.67 1.670002)
-		(end 0 1.670002)
-		(stroke
-			(width 0.05)
-			(type default)
-		)
-		(layer "F.CrtYd")
-		(uuid "dbdd552a-1a86-4e4c-b200-6f6c90f8c310")
-	)
 	(gr_arc
 		(start -11.737973 -13.859294)
 		(mid -12.332966 -15.007028)
