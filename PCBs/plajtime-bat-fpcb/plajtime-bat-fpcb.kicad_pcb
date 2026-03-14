@@ -1105,7 +1105,7 @@
 				)
 			)
 		)
-		(property "Value" "Q_Dual_NMOS_S1G1D2S2G2D1D1D2"
+		(property "Value" "NX7002BKXBZ"
 			(at -11.9 -14.3 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1117,7 +1117,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C551613.pdf"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1326,6 +1326,17 @@
 			(uuid "5d976bfb-3a67-4221-a88b-545eef0b9112")
 		)
 		(embedded_fonts no)
+		(model "${KICAD9_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/DFN-6-1EP_1.2x1.2mm_P0.4mm_EP0.3x0.94mm.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 0.9 0.9 0.9)
+			)
+			(rotate
+				(xyz -0 -0 -90)
+			)
+		)
 	)
 	(footprint "Capacitor_SMD:C_0201_0603Metric"
 		(layer "F.Cu")
@@ -1948,6 +1959,17 @@
 			(uuid "2e0a25d4-d37a-4bb1-802f-61405854d38d")
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/3D_models/5050700622.stp"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(gr_poly
 		(pts
