@@ -52,7 +52,8 @@
      transform="translate(-5.6182999,-3.5918002)"
      style="display:none;fill:none"
      inkscape:label="Board"
-     inkscape:highlight-color="#d7db00"><g
+     inkscape:highlight-color="#d7db00"
+     sodipodi:insensitive="true"><g
        id="g34"
        style="display:inline;fill:none"
        inkscape:label="F.Cu"><g

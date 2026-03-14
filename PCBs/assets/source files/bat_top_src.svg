@@ -27,8 +27,8 @@
      inkscape:zoom="11.313709"
      inkscape:cx="63.330248"
      inkscape:cy="44.017395"
-     inkscape:window-width="1920"
-     inkscape:window-height="1052"
+     inkscape:window-width="2560"
+     inkscape:window-height="1368"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
@@ -53,7 +53,8 @@
      transform="translate(-5.6183,-3.5918)"
      style="display:none;fill:none"
      inkscape:label="Board"
-     inkscape:highlight-color="#d7db00"><g
+     inkscape:highlight-color="#d7db00"
+     sodipodi:insensitive="true"><g
        id="g2"
        transform="translate(1.8125e-7,-4.971875e-5)"
        style="display:inline"

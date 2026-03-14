@@ -1,5 +1,6 @@
 # PlajTime PCB Assets
-- `*_src.svg` - just as a source for further editing - state before converting broken things and fonts to paths
+- `source files` - contains sources for further editing - state before converting broken things and fonts to paths
+- For some text we used the awesome ISO style font [osifont](https://github.com/hikikomori82/osifont)
 
 ## How to align full board SVG graphics
 - open the import graphics menu
