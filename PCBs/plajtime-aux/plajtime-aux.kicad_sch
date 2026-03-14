@@ -5321,7 +5321,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x02_P1.00mm_Vertical"
+		(property "Footprint" "Library:PinHeader_1x02_P1.00mm_Vertical"
 			(at 246.38 107.95 0)
 			(effects
 				(font
