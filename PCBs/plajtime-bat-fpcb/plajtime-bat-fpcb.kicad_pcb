@@ -114,7 +114,7 @@
 			(mirror no)
 			(drillshape 0)
 			(scaleselection 1)
-			(outputdirectory "/home/vasek/Documents/test-export/")
+			(outputdirectory "production/")
 		)
 	)
 	(net 0 "")
