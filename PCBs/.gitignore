@@ -46,3 +46,4 @@ fp-info-cache
 *.kicad_prl
 */GerberOutput
 */production/*
+*/.history/
