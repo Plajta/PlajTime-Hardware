@@ -9886,7 +9886,7 @@
 	)
 	(wire
 		(pts
-			(xy 372.11 182.88) (xy 361.95 182.88)
+			(xy 372.11 106.68) (xy 361.95 106.68)
 		)
 		(stroke
 			(width 0)
@@ -16183,7 +16183,7 @@
 		(uuid "31f46002-affa-4c44-aa3e-d7bf45e8c249")
 	)
 	(label "GAUGE_INT"
-		(at 372.11 182.88 180)
+		(at 372.11 106.68 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16774,7 +16774,7 @@
 	)
 	(global_label "GPU_INT"
 		(shape input)
-		(at 361.95 106.68 0)
+		(at 361.95 182.88 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -16784,7 +16784,7 @@
 		)
 		(uuid "0cd26162-63ff-4a58-98e9-026f3c1194cb")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 372.6762 106.68 0)
+			(at 372.6762 182.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
