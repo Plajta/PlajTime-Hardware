@@ -9173,7 +9173,7 @@
 		(uuid "b3f55940-195f-49bd-92af-7fa3cb1f028b")
 	)
 	(junction
-		(at 68.58 224.79)
+		(at 64.77 217.17)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b42fae14-0730-481d-b5b0-fd67bdc45169")
@@ -9547,16 +9547,6 @@
 			(type default)
 		)
 		(uuid "073360c4-bd94-428f-b1a1-772049657bb0")
-	)
-	(wire
-		(pts
-			(xy 68.58 224.79) (xy 83.82 224.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0735c88d-d83f-48f6-88a6-f801db8e28cb")
 	)
 	(wire
 		(pts
@@ -10340,6 +10330,16 @@
 	)
 	(wire
 		(pts
+			(xy 71.12 224.79) (xy 85.09 224.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "34587bc2-bf72-46e4-b1e1-8121b5ce1c0e")
+	)
+	(wire
+		(pts
 			(xy 48.26 43.18) (xy 40.64 43.18)
 		)
 		(stroke
@@ -10580,7 +10580,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 220.98) (xy 68.58 224.79)
+			(xy 66.04 217.17) (xy 64.77 217.17)
 		)
 		(stroke
 			(width 0)
@@ -10627,16 +10627,6 @@
 			(type default)
 		)
 		(uuid "45c2d32d-a995-40e3-825c-23c210952847")
-	)
-	(wire
-		(pts
-			(xy 68.58 215.9) (xy 68.58 214.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "45d88cc7-3c6b-4b35-81c6-3359da941855")
 	)
 	(wire
 		(pts
@@ -11500,7 +11490,17 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 224.79) (xy 68.58 224.79)
+			(xy 72.39 217.17) (xy 71.12 217.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8924f314-1112-482a-bbf1-fb32d0f6bcfb")
+	)
+	(wire
+		(pts
+			(xy 64.77 224.79) (xy 66.04 224.79)
 		)
 		(stroke
 			(width 0)
@@ -12447,16 +12447,6 @@
 			(type default)
 		)
 		(uuid "ba1f5e4f-78c8-478d-97dc-955d4463b4f1")
-	)
-	(wire
-		(pts
-			(xy 68.58 214.63) (xy 77.47 214.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ba36b067-5bf9-4453-92a9-a370a8cc729b")
 	)
 	(wire
 		(pts
@@ -16236,18 +16226,8 @@
 		)
 		(uuid "3eca578b-f959-4616-8f9a-52d4c13bdda0")
 	)
-	(label "CHG_VDD"
-		(at 77.47 214.63 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "40d18673-3a45-4b27-980c-4b760df586ba")
-	)
 	(label "CHARGER_INT"
-		(at 83.82 224.79 180)
+		(at 85.09 224.79 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -23355,6 +23335,83 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+BATT")
+		(at 72.39 217.17 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "54e185d3-c80a-4ace-97d1-201e2a1986bd")
+		(property "Reference" "#PWR045"
+			(at 72.39 220.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+BATT"
+			(at 72.39 213.106 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 72.39 217.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 72.39 217.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+BATT\""
+			(at 72.39 217.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "eaabdb17-c575-4613-b9c5-9350d00f41f9")
+		)
+		(instances
+			(project "plajtime-main"
+				(path "/ac4646bc-7c34-427b-b5dc-6b33046171d8"
+					(reference "#PWR045")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 275.59 137.16 270)
 		(unit 1)
@@ -25564,7 +25621,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "13MHz"
+		(property "Value" "32MHz"
 			(at 46.736 167.132 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28798,7 +28855,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 77.47 209.804 0)
+			(at 80.518 208.534 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -29234,7 +29291,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 68.58 218.44 0)
+		(at 68.58 217.17 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -29242,10 +29299,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "9e42c4a7-17ef-4918-8a87-892aae2e481c")
 		(property "Reference" "R13"
-			(at 71.12 217.1699 0)
+			(at 67.056 219.202 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -29255,8 +29311,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "300k"
-			(at 71.12 219.7099 0)
+		(property "Value" "TBD"
+			(at 66.548 215.392 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -29267,7 +29323,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
-			(at 68.58 218.44 0)
+			(at 68.58 217.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29278,7 +29334,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 68.58 218.44 0)
+			(at 68.58 217.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29289,7 +29345,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 68.58 218.44 0)
+			(at 68.58 217.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34248,6 +34304,87 @@
 			(project "plajtime-main"
 				(path "/ac4646bc-7c34-427b-b5dc-6b33046171d8"
 					(reference "U9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 68.58 224.79 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "dc97004f-0d6b-4505-bce2-003fe37cb4be")
+		(property "Reference" "R14"
+			(at 67.056 226.822 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TBD"
+			(at 66.548 223.012 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+			(at 68.58 224.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 68.58 224.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 68.58 224.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "ae8b1ed4-9864-41ab-9c8a-3f2fb30c443c")
+		)
+		(pin "1"
+			(uuid "d19e6ec2-933d-4cd9-a061-0b455a06725e")
+		)
+		(instances
+			(project "plajtime-main"
+				(path "/ac4646bc-7c34-427b-b5dc-6b33046171d8"
+					(reference "R14")
 					(unit 1)
 				)
 			)
