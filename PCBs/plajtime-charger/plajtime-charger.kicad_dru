@@ -1,0 +1,45 @@
+(version 1)
+
+(rule "CircuitNinja: copper spacing"
+  (severity error)
+  (constraint clearance (min 0.2mm)))
+
+(rule "CircuitNinja: track width"
+  (severity error)
+  (constraint track_width (min 0.2mm)))
+
+(rule "CircuitNinja: copper neck"
+  (severity error)
+  (constraint connection_width (min 0.2mm)))
+
+(rule "CircuitNinja: plated drill"
+  (severity error)
+  (constraint hole_size (min 0.3mm)))
+
+(rule "CircuitNinja: via diameter"
+  (severity error)
+  (constraint via_diameter (min 0.54mm)))
+
+(rule "CircuitNinja: via annular ring"
+  (severity error)
+  (condition "A.Type == 'Via'")
+  (constraint annular_width (min 0.12mm)))
+
+(rule "CircuitNinja: hole spacing"
+  (severity error)
+  (constraint hole_to_hole (min 0.2mm)))
+
+(rule "CircuitNinja: NPTH diameter or slot width"
+  (severity error)
+  (condition "A.Type == 'Pad' && A.Pad_Type == 'NPTH, mechanical'")
+  (constraint hole_size (min 0.5mm)))
+
+(rule "CircuitNinja: PTH pad annular ring"
+  (severity error)
+  (condition "A.Type == 'Pad' && A.Pad_Type == 'Through-hole'")
+  (constraint annular_width (min 0.12mm)))
+
+(rule "CircuitNinja: hole to profile"
+  (severity error)
+  (condition "A.Layer == 'Edge.Cuts' || B.Layer == 'Edge.Cuts'")
+  (constraint physical_hole_clearance (min 0.2mm)))
