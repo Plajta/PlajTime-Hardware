@@ -4000,7 +4000,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
+		(property "Footprint" "Library:MountingHole_1.55mm_M1.4"
 			(at 182.88 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -4461,7 +4461,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
+		(property "Footprint" "Library:MountingHole_1.55mm_M1.4"
 			(at 182.88 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -6683,7 +6683,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
+		(property "Footprint" "Library:MountingHole_1.55mm_M1.4"
 			(at 173.99 85.09 0)
 			(hide yes)
 			(show_name no)
