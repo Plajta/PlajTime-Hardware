@@ -283,7 +283,7 @@
       "internal_id": "",
       "mfg": "",
       "mpn": "",
-      "sch_revision": ""
+      "sch_revision": "v0.5"
     },
     "layer_pairs": [],
     "layer_presets": [],
@@ -650,15 +650,9 @@
         },
         {
           "group_by": false,
-          "label": "LCSC_Part",
-          "name": "LCSC_Part",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Mouser",
-          "name": "Mouser",
-          "show": false
+          "label": "Mouser part",
+          "name": "Mouser part",
+          "show": true
         },
         {
           "group_by": false,
@@ -702,7 +696,7 @@
       "include_excluded_from_bom": true,
       "name": "",
       "sort_asc": true,
-      "sort_field": "Reference"
+      "sort_field": "Mouser part"
     },
     "bus_aliases": {},
     "connection_grid_size": 50.0,
