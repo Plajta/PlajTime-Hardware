@@ -1,14 +1,14 @@
 (footprint "PinHeader_1x02_P1.00mm_Vertical"
-	(version 20241229)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(descr "Through hole straight pin header, 1x02, 1.00mm pitch, single row")
 	(tags "Through hole pin header THT 1x02 1.00mm single row")
 	(property "Reference" "REF**"
 		(at 0 -1.61 0)
 		(layer "F.SilkS")
-		(uuid "1ebd3eba-b44b-488d-b727-d8a31394e849")
+		(uuid "feb408d3-a5a3-4b45-bde0-df3340eb7106")
 		(effects
 			(font
 				(size 1 1)
@@ -19,7 +19,7 @@
 	(property "Value" "PinHeader_1x02_P1.00mm_Vertical"
 		(at 0 2.61 0)
 		(layer "F.Fab")
-		(uuid "31d2cde9-a0ec-4f41-92a2-df9c185bfa8a")
+		(uuid "60a301bb-ecb0-4ed9-be19-2387a8ff98dc")
 		(effects
 			(font
 				(size 1 1)
@@ -31,7 +31,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "69724939-b2a1-424c-a05b-8e8dc239f293")
+		(uuid "a3c09f12-9d14-48dc-adf5-b07d48c41dc3")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -43,7 +43,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "53938f75-72ca-40d2-a3ca-a0e9dc096b8b")
+		(uuid "b517d0cf-d3a6-4db7-80c8-46b11fc29ab3")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -52,6 +52,7 @@
 		)
 	)
 	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_rect
 		(start -0.7 -0.6)
 		(end 0.7 1.6)
@@ -61,7 +62,7 @@
 		)
 		(fill no)
 		(layer "F.SilkS")
-		(uuid "f560d373-3953-4ad4-a32d-4682974d29ea")
+		(uuid "e8772948-8a55-49f3-b7d1-706e40bf2f6a")
 	)
 	(fp_line
 		(start -0.635 -0.1825)
@@ -71,7 +72,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "0d3a0ebd-a6cb-4910-97b4-42747a85762d")
+		(uuid "c3840fb5-ddf6-4e3f-ac61-89804ed2ff2b")
 	)
 	(fp_line
 		(start -0.635 1.5)
@@ -81,7 +82,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "f7e96e91-2967-411e-87d1-22f84b9306da")
+		(uuid "6434cb3f-a7d5-47da-8f37-3351a9706a04")
 	)
 	(fp_line
 		(start -0.3175 -0.5)
@@ -91,7 +92,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "6167971c-2dc5-4041-a81e-8d63c317179d")
+		(uuid "26073a97-ec87-4236-9c37-18fd4f3109d9")
 	)
 	(fp_line
 		(start 0.635 -0.5)
@@ -101,7 +102,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "fff8a425-e751-4059-85df-7694d196e958")
+		(uuid "4f3467a7-4388-4a40-859e-baefafe7f245")
 	)
 	(fp_line
 		(start 0.635 1.5)
@@ -111,12 +112,12 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "b32ee5f4-1342-419a-a237-7eaadd33d8d4")
+		(uuid "ceff4088-f850-4460-a505-d8aaad2d0afd")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 0.5 90)
 		(layer "F.Fab")
-		(uuid "f55bf57c-1296-4406-af9a-1d521120e07c")
+		(uuid "ef8cc83c-9352-4d25-a10a-95663bc6b7db")
 		(effects
 			(font
 				(size 0.76 0.76)
@@ -128,13 +129,13 @@
 		(at 0 0)
 		(size 0.85 0.85)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "7b3d7f3d-8347-46a8-98b8-52796b639229")
+		(uuid "99f62784-cc1d-4f2c-ac7e-af529b4d4497")
 	)
 	(pad "2" smd rect
 		(at 0 1)
 		(size 0.85 0.85)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "86d90e31-e0a5-4b64-806d-1ec1dce095a6")
+		(uuid "a4d91f84-1c8b-4924-a5ae-c5b4d61e77b9")
 	)
 	(embedded_fonts no)
 	(model "${KICAD9_3DMODEL_DIR}/Connector_PinHeader_1.00mm.3dshapes/PinHeader_1x02_P1.00mm_Vertical.step"
